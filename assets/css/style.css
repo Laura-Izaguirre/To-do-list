@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 10rem;
+  background-image: url("../images/bg-mobile-light.jpg");
+  background-repeat: no-repeat;
+}
+
+#todo-cont {
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

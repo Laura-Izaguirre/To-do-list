@@ -25,12 +25,13 @@
 <body>
   <header id="header" class="header">
     <h1 class="header__title">TODO</h1>
+    <img src="./assets/images/icon-sun.svg" alt="icon of the mode" id="sun-icon">
     <img src="./assets/images/icon-moon.svg" alt="icon of the mode" id="main-icon">
   </header>
 
   <main id="main">
     <form class="form" id="form">
-      <div class="form__container shadow">
+      <div class="form__container">
         <div class="form__container__items">
           <div class="form__container__circle items-circle check-holder"></div>
           <input type="text" id="todo-item" class="form__container__todo" placeholder="Create a new todo...">
@@ -49,20 +50,21 @@
         <p id="items-left" class="items__footer__lefts">0 items left</p>
         <p id="items-clear" class="items__footer__clear">Clear Completed</p>
       </div>
+      
+      <article id="filter" class="filterbox">
+        <p id="filter-all" class="filterbox__filters">All</p>
+        <p id="filter-active" class="filterbox__filters active" >Active</p>
+        <p id="filter-completed" class="filterbox__filters">Completed</p>
+      </article>
     </section>
 
-    <article id="filter" class="filterbox">
-      <p id="filter-all" class="filterbox__filters">All</p>
-      <p id="filter-active" class="filterbox__filters active" >Active</p>
-      <p id="filter-completed" class="filterbox__filters">Completed</p>
-    </article>
   </main>
 
   <footer id="footer" class="footer">
     <p>Drag and drop to reorder list</p>
   </footer>
 
-  <script src="./JS/main.js" type="module"></script>
+  <script src="./js/main.js" type="module"></script>
 </body>
 
 </html>
